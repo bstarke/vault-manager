@@ -1,0 +1,9 @@
+management:
+  endpoint:
+    health:
+      show-details: "when_authorized"
+      roles: "USER"
+#spring:
+#  security:
+#    user:
+#      password: "get it from the logs! this way it changes every time the app restarts"

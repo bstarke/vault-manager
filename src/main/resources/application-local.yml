@@ -1,0 +1,15 @@
+spring:
+  security:
+    user:
+      password: "password"
+      roles: "USER"
+management:
+  endpoint:
+    health:
+      show-details: "when_authorized"
+      roles: "USER"
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: "env,beans"
